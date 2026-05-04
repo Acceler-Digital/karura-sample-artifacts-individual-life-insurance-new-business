@@ -18,6 +18,17 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "D1. ビジネス要求",
+      items: [
+        {
+          type: "doc",
+          id: "D1.business-requirements/business-requirement-document",
+          label: "ビジネス要件定義書",
+        },
+      ],
+    },
   ],
 };
 

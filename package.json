@@ -9,6 +9,7 @@
     "build:offline": "bash scripts/build-offline.sh",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
+    "check:markers": "bash scripts/check-markers.sh",
     "test": "bash scripts/test-offline-search.sh"
   },
   "dependencies": {

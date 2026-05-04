@@ -27,5 +27,7 @@ Thumbs.db
 .ai-context/
 
 # Claude Code local config
-.claude/
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 .bob/
