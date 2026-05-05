@@ -29,8 +29,13 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
-          id: "D1.business-requirements/actor-catalog",
-          label: "アクターカタログ",
+          id: "D1.business-requirements/actor-list",
+          label: "アクター一覧",
+        },
+        {
+          type: "doc",
+          id: "D1.business-requirements/domain-definition-document",
+          label: "ドメイン定義書",
         },
       ],
     },
