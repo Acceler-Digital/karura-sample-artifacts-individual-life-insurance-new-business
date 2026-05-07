@@ -37,6 +37,11 @@ const sidebars: SidebarsConfig = {
           id: "D1.business-requirements/domain-definition-document",
           label: "ドメイン定義書",
         },
+        {
+          type: "doc",
+          id: "D1.business-requirements/product-requirement-document",
+          label: "プロダクト要求仕様書",
+        },
       ],
     },
   ],
