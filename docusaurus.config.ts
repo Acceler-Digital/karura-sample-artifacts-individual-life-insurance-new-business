@@ -8,6 +8,7 @@ const config: Config = {
   tagline: "プロジェクト成果物テンプレート",
   url: "https://example.com",
   baseUrl: "/",
+  favicon: "img/favicon.png",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   future: {
