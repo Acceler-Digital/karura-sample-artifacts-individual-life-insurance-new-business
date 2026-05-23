@@ -88,18 +88,8 @@ const sidebars: SidebarsConfig = {
             },
             {
               type: "doc",
-              id: "D1.business-requirements/domain-requirements/product-specification-requirement-document",
-              label: "商品仕様管理要求仕様書",
-            },
-            {
-              type: "doc",
               id: "D1.business-requirements/domain-requirements/customer-requirement-document",
               label: "顧客情報管理要求仕様書",
-            },
-            {
-              type: "doc",
-              id: "D1.business-requirements/domain-requirements/channel-requirement-document",
-              label: "募集チャネル管理要求仕様書",
             },
             {
               type: "doc",
@@ -127,6 +117,16 @@ const sidebars: SidebarsConfig = {
               label: "統制・証跡管理(アクセス制御・監査ログ・電子帳簿保存)要求仕様書",
             },
           ],
+        },
+        {
+          type: "doc",
+          id: "D1.business-requirements/user-story-list",
+          label: "ユーザーストーリー一覧",
+        },
+        {
+          type: "doc",
+          id: "D1.business-requirements/screen-concepts",
+          label: "画面コンセプト集",
         },
       ],
     },

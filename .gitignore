@@ -26,8 +26,9 @@ Thumbs.db
 # AI Context (local only)
 .ai-context/
 
-# Claude Code local config
+# Claude Code config (skills と project-shared settings は共有、それ以外は local only)
 .claude/*
 !.claude/skills/
 !.claude/skills/**
+!.claude/settings.json
 .bob/
