@@ -48,7 +48,7 @@ const sidebars: SidebarsConfig = {
           items: [
             {
               type: "doc",
-              id: "D1.business-requirements/domain-requirements/common-requirement-document",
+              id: "D1.business-requirements/domain-requirements/domain-common-requirement-document",
               label: "ドメイン共通要求仕様書",
             },
             {
