@@ -50,7 +50,7 @@
   - 意向との整合性(意向把握で取得した目的・予算・希望保障 等との対比)が可視化され、乖離があれば明示。
   - 重要事項の説明事項(保険業法の情報提供義務に基づく事項)を、お客様と一緒に読み上げ・確認できるインライン提示。チェック行為が証跡として自然に残る。
   - 「お客様の確定意思を引き出す瞬間」としての儀式感 — 確定ボタンに重みがあり、確定後の遷移(申込受付への引き渡し)が明快。
-* **関連**: DOM-DDOM-ESIGN-BR-1, DOM-DDOM-ESIGN-BR-2, DOM-DDOM-ESIGN-BR-5, DOM-DDOM-ESIGN-BR-6, DOM-DDOM-ESIGN-BR-7, DOM-DDOM-ESIGN-IRR-1 / US-DESIGN-* / PRD §「提供価値・体験方針(エンドツーエンドのリードタイム短縮・不備の発生抑止・募集コンプライアンスの証跡化)」/ DOM-COMMON-REG-1(保険業法 情報提供義務・適合性原則)/ ACT-1・ACT-2・ACT-5
+* **関連**: DOM-DESIGN-BR-1, DOM-DESIGN-BR-2, DOM-DESIGN-BR-5, DOM-DESIGN-BR-6, DOM-DESIGN-BR-7, DOM-DESIGN-IRR-1 / US-DESIGN-* / PRD §「提供価値・体験方針(エンドツーエンドのリードタイム短縮・不備の発生抑止・募集コンプライアンスの証跡化)」/ DOM-COMMON-REG-1(保険業法 情報提供義務・適合性原則)/ ACT-1・ACT-2・ACT-5
 * **Figma リンク**: {{Figma フレームURL}}【要確認】
 
 ### SC-SCENE-3: 申込情報入力 — 募集人とお客様の共同編集
