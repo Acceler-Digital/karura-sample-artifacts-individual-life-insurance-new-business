@@ -43,14 +43,14 @@ const sidebars: SidebarsConfig = {
           label: "プロダクト要求仕様書",
         },
         {
-          type: "doc",
-          id: "D1.business-requirements/common-requirement-document",
-          label: "ドメイン共通要求仕様書",
-        },
-        {
           type: "category",
           label: "ドメイン要求仕様書",
           items: [
+            {
+              type: "doc",
+              id: "D1.business-requirements/domain-requirements/common-requirement-document",
+              label: "ドメイン共通要求仕様書",
+            },
             {
               type: "doc",
               id: "D1.business-requirements/domain-requirements/hearing-requirement-document",
