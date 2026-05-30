@@ -6,8 +6,11 @@ const isOffline = process.env.OFFLINE === "true";
 const config: Config = {
   title: "[SAMPLE]新契約システム成果物Wiki",
   tagline: "プロジェクト成果物テンプレート",
-  url: "https://example.com",
+  url: "http://karura-sample-life-insurance-artifacts.s3-website-ap-northeast-1.amazonaws.com",
   baseUrl: "/",
+  // S3 静的ホスティングはクリーンURL(スラッシュなし)を index.html に解決できず
+  // 404 になるため、全ルートを /path/ 形式にして /path/index.html を返せるようにする
+  trailingSlash: true,
   favicon: "img/favicon.png",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",

@@ -1,0 +1,42 @@
+name: Deploy KARURA artifacts to S3
+
+# KARURA サンプル成果物 Wiki を S3 静的ホスティングへ自動デプロイする。
+# main への push(= マージ)でのみ実行する。公開リポジトリのため、
+# フォークからの pull_request では AWS 権限を一切付与しない(走らせない)。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # 必要時に手動実行(リポジトリへの write 権限者のみ可)
+
+# ジョブ既定の権限を最小化する。OIDC 取得に id-token: write のみ必要。
+permissions:
+  contents: read
+  id-token: write
+
+# 同時デプロイを直列化し、古い実行は打ち切る
+concurrency:
+  group: deploy-s3
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # 公開リポジトリではセルフホストランナーを使わない
+    steps:
+      # サードパーティ Action はサプライチェーン対策でコミット SHA にピン留めする
+      # (タグは可変なので使わない)。# 以降は解決元のバージョン。
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+      - uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+
+      - uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a # v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION }}
+
+      - run: aws s3 sync build/ s3://${{ vars.S3_BUCKET }}/ --delete
