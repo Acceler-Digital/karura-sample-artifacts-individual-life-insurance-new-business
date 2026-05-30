@@ -2,6 +2,7 @@
   "name": "sample-life-insurance-new-business-artifact",
   "version": "0.0.1",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
