@@ -140,6 +140,17 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "D2. システム要件",
+      items: [
+        {
+          type: "doc",
+          id: "D2.system-requirements/function-list",
+          label: "機能一覧",
+        },
+      ],
+    },
   ],
 };
 
