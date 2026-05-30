@@ -130,6 +130,11 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "doc",
+          id: "D1.business-requirements/use-case-list",
+          label: "ユースケース一覧",
+        },
+        {
+          type: "doc",
           id: "D1.business-requirements/screen-concepts",
           label: "画面コンセプト集",
         },
