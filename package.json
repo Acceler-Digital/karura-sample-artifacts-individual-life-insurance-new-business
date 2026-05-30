@@ -10,6 +10,8 @@
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "check:markers": "bash scripts/check-markers.sh",
+    "check:security": "bash scripts/security-scan.sh",
+    "prepare": "git config core.hooksPath .githooks",
     "test": "bash scripts/test-offline-search.sh"
   },
   "dependencies": {

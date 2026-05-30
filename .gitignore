@@ -31,4 +31,5 @@ Thumbs.db
 !.claude/skills/
 !.claude/skills/**
 !.claude/settings.json
+!.claude/security-denylist.txt
 .bob/
