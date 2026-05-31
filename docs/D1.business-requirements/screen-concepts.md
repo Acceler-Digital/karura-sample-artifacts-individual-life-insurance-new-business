@@ -16,7 +16,7 @@
 
 ## トーン&マナー方針
 
-* **Figma ムードボード/スタイルタイル**: {{https://www.figma.com/design/xxxxx/...}}【要確認】
+* **Figma ムードボード/スタイルタイル**: https://www.figma.com/design/SgaQCXdiJXs3AhqAv5zPvx/sample-artifacts-individual-life-insurance-new-business?node-id=19-2
 * Sample生命保険全社ブランドガイドライン/デザインシステムに準拠します(PRD §UI/UX方針)。全社デザインシステムが未整備の領域は本プロダクトで定義し、全社共通資産として整備・展開する想定です。
 * 想定するトーンキーワード: **信頼感・誠実さ・(タブレット片手操作を含む)使いやすさ・要配慮個人情報を扱う場面での丁重さ**。営業職員向けは業務生産性を支える明快さを、申込人/被保険者向けは安心して手続きを進められる落ち着きを、それぞれ重視します。
 
@@ -35,7 +35,7 @@
   - 「暫定 → 確定」の状態が画面上で明示され、未確定のまま設計書作成に進めない仕掛けが自然に組み込まれている。
   - 個人情報取得の同意プロセスが業務動線に違和感なく挟まる。
 * **関連**: DOM-HEAR-BR-1, DOM-HEAR-BR-2, DOM-HEAR-BR-4, DOM-HEAR-BR-5 / US-HEAR-* / PRD §「提供価値・体験方針」/ BRD KPI「不備返戻率5%以下」「リードタイム平均5営業日以内」/ ACT-1・ACT-2・ACT-5
-* **Figma リンク**: {{Figma フレームURL}}【要確認】
+* **Figma リンク**: https://www.figma.com/design/SgaQCXdiJXs3AhqAv5zPvx/sample-artifacts-individual-life-insurance-new-business?node-id=15-2
 
 ### SC-SCENE-2: 設計書(重要事項)提示・確定 — 加入意思の核心
 
@@ -51,7 +51,7 @@
   - 重要事項の説明事項(保険業法の情報提供義務に基づく事項)を、お客様と一緒に読み上げ・確認できるインライン提示。チェック行為が証跡として自然に残る。
   - 「お客様の確定意思を引き出す瞬間」としての儀式感 — 確定ボタンに重みがあり、確定後の遷移(申込受付への引き渡し)が明快。
 * **関連**: DOM-DESIGN-BR-1, DOM-DESIGN-BR-2, DOM-DESIGN-BR-5, DOM-DESIGN-BR-6, DOM-DESIGN-BR-7, DOM-DESIGN-IRR-1 / US-DESIGN-* / PRD §「提供価値・体験方針(エンドツーエンドのリードタイム短縮・不備の発生抑止・募集コンプライアンスの証跡化)」/ DOM-COMMON-REG-1(保険業法 情報提供義務・適合性原則)/ ACT-1・ACT-2・ACT-5
-* **Figma リンク**: {{Figma フレームURL}}【要確認】
+* **Figma リンク**: https://www.figma.com/design/SgaQCXdiJXs3AhqAv5zPvx/sample-artifacts-individual-life-insurance-new-business?node-id=17-2
 
 ### SC-SCENE-3: 申込情報入力 — 募集人とお客様の共同編集
 
@@ -67,4 +67,4 @@
   - お客様自身が入力・確認した内容と、募集人が代理入力した内容が区別され、責任所在が透明。
   - 申込意思の確定は電子署名による儀式として位置づけ、確定までの導線が明快。
 * **関連**: DOM-APPL-BR-1, DOM-APPL-BR-2, DOM-APPL-BR-3, DOM-APPL-BR-4, DOM-APPL-BR-7, DOM-APPL-BR-10, DOM-APPL-IRR-1 / US-APPL-* / PRD §「提供価値・体験方針(エンドツーエンドのリードタイム短縮・不備の発生抑止)」/ BRD KPI「不備返戻率5%以下」/ ACT-1・ACT-2・ACT-5
-* **Figma リンク**: {{Figma フレームURL}}【要確認】
+* **Figma リンク**: https://www.figma.com/design/SgaQCXdiJXs3AhqAv5zPvx/sample-artifacts-individual-life-insurance-new-business?node-id=18-2
