@@ -149,6 +149,11 @@ const sidebars: SidebarsConfig = {
           id: "D2.system-requirements/function-list",
           label: "機能一覧",
         },
+        {
+          type: "doc",
+          id: "D2.system-requirements/external-system-list",
+          label: "外部システム一覧",
+        },
       ],
     },
   ],
