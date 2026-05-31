@@ -154,6 +154,11 @@ const sidebars: SidebarsConfig = {
           id: "D2.system-requirements/external-system-list",
           label: "外部システム一覧",
         },
+        {
+          type: "doc",
+          id: "D2.system-requirements/c4-level1-system-context",
+          label: "C4モデル レベル1: システムコンテキスト",
+        },
       ],
     },
   ],
