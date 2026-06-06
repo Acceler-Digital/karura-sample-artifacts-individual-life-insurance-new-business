@@ -1,5 +1,5 @@
 # KARURA 成果物サンプル - 生命保険 新契約システム
-
+## はじめに
 エンタープライズ向けAI駆動開発統合ソリューション「[KARURA](https://github.com/Acceler-Digital/karura)」（以下、KARURA）を使って実プロジェクトを進めた場合に、どのような成果物体系が生まれるのかを具体的に示すサンプルリポジトリです。
 
 架空の生命保険会社「Sample生命保険株式会社」における 個人保険（終身保険・定期保険・医療保険・がん保険 等）の新契約手続きWebという題材で、成果物を順次配置していきます。
@@ -15,6 +15,7 @@
 
 フェーズ間の依存関係や成果物の生成順については [docs/D0.project-management/artifact-flow.md](docs/D0.project-management/artifact-flow.md) を参照してください。
 
+また、[Docusaurusで作成される成果物Wiki](http://karura-sample-life-insurance-artifacts.s3-website-ap-northeast-1.amazonaws.com/)はAWS S3より公開しているので、ローカルにインストールしなくても確認することができます。
 
 ## 環境構築
 ### ドキュメントサイトをローカルで立ち上げる
