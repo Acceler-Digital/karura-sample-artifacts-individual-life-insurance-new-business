@@ -231,7 +231,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/APPL_申込受付/UC-11_関係者整合(被保険者同意要否)を検証する",
+                  id: "D2.system-requirements/c4-level1-sequences/APPL_申込受付/UC-11_関係者整合（被保険者同意要否）を検証する",
                   label: "UC-11: 関係者整合(被保険者同意要否)を検証する",
                 },
                 {
@@ -283,7 +283,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/UNDW_引受査定/UC-19_査定経路を振り分ける(自動-医的)",
+                  id: "D2.system-requirements/c4-level1-sequences/UNDW_引受査定/UC-19_査定経路を振り分ける（自動-医的）",
                   label: "UC-19: 査定経路を振り分ける(自動/医的)",
                 },
                 {
@@ -350,27 +350,27 @@ const sidebars: SidebarsConfig = {
               items: [
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立(計上)/UC-30_引受可決と収納成立の双方充足を検知し自動計上する",
+                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立（計上）/UC-30_引受可決と収納成立の双方充足を検知し自動計上する",
                   label: "UC-30: 引受可決と収納成立の双方充足を検知し自動計上する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立(計上)/UC-31_既存契約管理システムへ連携し受領確認で計上完了とする",
+                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立（計上）/UC-31_既存契約管理システムへ連携し受領確認で計上完了とする",
                   label: "UC-31: 既存契約管理システムへ連携し受領確認で計上完了とする",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立(計上)/UC-32_二重計上を冪等に防止・是正する",
+                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立（計上）/UC-32_二重計上を冪等に防止・是正する",
                   label: "UC-32: 二重計上を冪等に防止・是正する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立(計上)/UC-33_計上滞留を滞留管理し業務時間内に処理する",
+                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立（計上）/UC-33_計上滞留を滞留管理し業務時間内に処理する",
                   label: "UC-33: 計上滞留を滞留管理し業務時間内に処理する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立(計上)/UC-34_確定顧客情報を既存契約管理システムへ引き渡す",
+                  id: "D2.system-requirements/c4-level1-sequences/BOOK_契約成立（計上）/UC-34_確定顧客情報を既存契約管理システムへ引き渡す",
                   label: "UC-34: 確定顧客情報を既存契約管理システムへ引き渡す",
                 },
               ],
@@ -386,7 +386,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/PLCY_保険証券発行/UC-36_保険証券を交付する(電子交付-物理発送)",
+                  id: "D2.system-requirements/c4-level1-sequences/PLCY_保険証券発行/UC-36_保険証券を交付する（電子交付-物理発送）",
                   label: "UC-36: 保険証券を交付する(電子交付/物理発送)",
                 },
                 {
@@ -407,12 +407,12 @@ const sidebars: SidebarsConfig = {
               items: [
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/CUST_顧客情報管理/UC-39_契約主体(申込人-被保険者-受取人)を区別して保持する",
+                  id: "D2.system-requirements/c4-level1-sequences/CUST_顧客情報管理/UC-39_契約主体（申込人-被保険者-受取人）を区別して保持する",
                   label: "UC-39: 契約主体(申込人/被保険者/受取人)を区別して保持する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/CUST_顧客情報管理/UC-40_顧客を名寄せ判定する(不確実時は別人物扱い)",
+                  id: "D2.system-requirements/c4-level1-sequences/CUST_顧客情報管理/UC-40_顧客を名寄せ判定する（不確実時は別人物扱い）",
                   label: "UC-40: 顧客を名寄せ判定する(不確実時は別人物扱い)",
                 },
                 {
@@ -459,22 +459,22 @@ const sidebars: SidebarsConfig = {
               items: [
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認(KYC)/UC-47_取引時確認(本人特定事項)を外部サービス連携で実施する",
+                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認（KYC）/UC-47_取引時確認（本人特定事項）を外部サービス連携で実施する",
                   label: "UC-47: 取引時確認(本人特定事項)を外部サービス連携で実施する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認(KYC)/UC-48_KYC の外部不達・タイムアウト時に再依頼・縮退運用で業務継続する",
+                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認（KYC）/UC-48_KYCの外部不達・タイムアウト時に再依頼・縮退運用で業務継続する",
                   label: "UC-48: KYC の外部不達・タイムアウト時に再依頼・縮退運用で業務継続する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認(KYC)/UC-49_KYC の「要目視」「保留」案件を目視判定する",
+                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認（KYC）/UC-49_KYCの「要目視」「保留」案件を目視判定する",
                   label: "UC-49: KYC の「要目視」「保留」案件を目視判定する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認(KYC)/UC-50_疑わしい取引の兆候を検知し届出要否判断に付す",
+                  id: "D2.system-requirements/c4-level1-sequences/KYC_本人確認（KYC）/UC-50_疑わしい取引の兆候を検知し届出要否判断に付す",
                   label: "UC-50: 疑わしい取引の兆候を検知し届出要否判断に付す",
                 },
               ],
@@ -495,7 +495,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/ASF_反社チェック/UC-53_「要確認(類似・あいまい一致)」を最終判断する",
+                  id: "D2.system-requirements/c4-level1-sequences/ASF_反社チェック/UC-53_「要確認（類似・あいまい一致）」を最終判断する",
                   label: "UC-53: 「要確認(類似・あいまい一致)」を最終判断する",
                 },
                 {
@@ -521,7 +521,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/ESIGN_電子署名/UC-57_真実性措置(タイムスタンプ)付与を外部サービスへ依頼する",
+                  id: "D2.system-requirements/c4-level1-sequences/ESIGN_電子署名/UC-57_真実性措置（タイムスタンプ）付与を外部サービスへ依頼する",
                   label: "UC-57: 真実性措置(タイムスタンプ)付与を外部サービスへ依頼する",
                 },
                 {
@@ -557,12 +557,12 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-63_証跡を 10 年保持し参照可能性を維持する",
+                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-63_証跡を10年保持し参照可能性を維持する",
                   label: "UC-63: 証跡を 10 年保持し参照可能性を維持する",
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-64_証跡を説明可能な形で提供する(監査・第三者診断・監督官庁)",
+                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-64_証跡を説明可能な形で提供する（監査・第三者診断・監督官庁）",
                   label: "UC-64: 証跡を説明可能な形で提供する(監査・第三者診断・監督官庁)",
                 },
                 {
@@ -572,7 +572,7 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: "doc",
-                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-66_緊急時の例外アクセス(ブレイクグラス)を統制下で行使する",
+                  id: "D2.system-requirements/c4-level1-sequences/AUDIT_統制・証跡管理/UC-66_緊急時の例外アクセス（ブレイクグラス）を統制下で行使する",
                   label: "UC-66: 緊急時の例外アクセス(ブレイクグラス)を統制下で行使する",
                 },
               ],
