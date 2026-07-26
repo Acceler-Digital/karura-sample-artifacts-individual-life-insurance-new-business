@@ -150,6 +150,47 @@ const sidebars: SidebarsConfig = {
           label: "機能一覧",
         },
         {
+          type: "category",
+          label: "非機能要件",
+          items: [
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/総則",
+              label: "総則",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/A.可用性",
+              label: "A. 可用性",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/B.性能・拡張性",
+              label: "B. 性能・拡張性",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/C.運用・保守性",
+              label: "C. 運用・保守性",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/D.移行性",
+              label: "D. 移行性",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/E.セキュリティ",
+              label: "E. セキュリティ",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/non-functional-requirements/F.システム環境・エコロジー",
+              label: "F. システム環境・エコロジー",
+            },
+          ],
+        },
+        {
           type: "doc",
           id: "D2.system-requirements/external-system-list",
           label: "外部システム一覧",
