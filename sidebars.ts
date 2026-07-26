@@ -620,6 +620,11 @@ const sidebars: SidebarsConfig = {
             },
           ],
         },
+        {
+          type: "doc",
+          id: "D2.system-requirements/conceptual-data-model",
+          label: "概念データモデル",
+        },
       ],
     },
   ],
