@@ -33,3 +33,4 @@ Thumbs.db
 !.claude/settings.json
 !.claude/security-denylist.txt
 .bob/
+.claude/worktrees/
