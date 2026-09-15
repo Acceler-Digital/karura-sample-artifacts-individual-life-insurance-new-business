@@ -156,6 +156,42 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: "category",
+          label: "画面遷移図",
+          items: [
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/募集人",
+              label: "募集人: ACT-1・ACT-2",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/引受査定担当者",
+              label: "引受査定担当者: ACT-3",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/新契約事務担当者",
+              label: "新契約事務担当者: ACT-4",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/申込人・被保険者",
+              label: "申込人・被保険者: ACT-5・ACT-6",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/業務部門責任者・CSIRT",
+              label: "業務部門責任者・CSIRT: ACT-12・ACT-17",
+            },
+            {
+              type: "doc",
+              id: "D2.system-requirements/screen-flow-diagrams/コンプライアンス部・内部監査部",
+              label: "コンプライアンス部・内部監査部: ACT-15・ACT-16",
+            },
+          ],
+        },
+        {
+          type: "category",
           label: "非機能要件",
           items: [
             {
