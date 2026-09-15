@@ -673,6 +673,17 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "D3. システム設計",
+      items: [
+        {
+          type: "doc",
+          id: "D3.system-design/c4-level2-container",
+          label: "C4モデル レベル2: コンテナ",
+        },
+      ],
+    },
   ],
 };
 
