@@ -14,10 +14,6 @@ dist/
 .env.local
 .env.production
 
-# OS files
-.DS_Store
-Thumbs.db
-
 # IDE
 .vscode/
 .idea/
@@ -36,3 +32,7 @@ Thumbs.db
 !.claude/security-denylist.txt
 .bob/
 .claude/worktrees/
+
+# OS files(上記の否定パターンで再追跡されないよう末尾に置く)
+**/.DS_Store
+**/Thumbs.db
