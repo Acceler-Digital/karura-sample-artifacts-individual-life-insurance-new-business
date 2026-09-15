@@ -150,6 +150,11 @@ const sidebars: SidebarsConfig = {
           label: "機能一覧",
         },
         {
+          type: "doc",
+          id: "D2.system-requirements/screen-list",
+          label: "画面一覧",
+        },
+        {
           type: "category",
           label: "非機能要件",
           items: [
