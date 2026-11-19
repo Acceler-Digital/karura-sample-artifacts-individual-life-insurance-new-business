@@ -1,5 +1,5 @@
 <!--
-振る舞いルールは `.claude/skills/create-artifact-skill/SKILL.md`、汎用規約はリポジトリ直下の `CLAUDE.md` を参照
+振る舞いルールは `.claude/skills/d0-create-artifact-skill/SKILL.md`、汎用規約はリポジトリ直下の `CLAUDE.md` を参照
 -->
 ---
 name: {{スキル名}}
